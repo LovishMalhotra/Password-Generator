@@ -3,7 +3,7 @@
 }
 
 body{
-  background-color: #3b3b3b;
+  background-color: #111016;
   color: #fff;
   background-repeat: no-repeat;
   display:flex;
@@ -21,10 +21,12 @@ p{
 h2{
   margin:10px 0 20px;
   text-align: center;
+  font-size: 24px;
+  color:#ffffff65;
 }
 
 .container{
-  background-color: #232323;
+  background-color: #24232B;
   box-shadow: 0px 2px 10px rgba(255 255 255 0.2);
   padding:20px;
   width:350px;
@@ -33,16 +35,16 @@ h2{
 
 
 .result-container{
-  background-color:rgba(0, 0, 0, 0.4);
+  background-color:#24232B;
   display:flex;
   justify-content: center;
   align-items: center;
   position:relative;
   font-size:18px;
   letter-spacing: 1px;
-  padding: 12px 10px;
+  padding: 12px 40px;
   height: 50px;
-  width:100%;
+  margin-bottom: 20px;
   color: #fff;
 }
 
@@ -88,7 +90,7 @@ h2{
 }
 
 .password-strength{
-  background-color: #121111;
+  background-color: #18171F;
   padding:8px 12px;
   top:5px;
   right: 5px;
@@ -98,7 +100,7 @@ h2{
 }
 
 #strength-text{
-  padding-left: 60% !important;
+  padding-left: 40% !important;
 }
 
 label{
@@ -107,14 +109,14 @@ label{
 
 #generate{
   padding-left: 25%;
-  background-color: yellowgreen;
+  color:#24232B;
+  background-color: #A1E3AB;
 }
 
 #password{
-  background-color:#121111;
+  background-color:#24232B;
   color: #fff;
   border:none;
-  width:100%;
   height: 40px;
   font-size: 20px;
   font-weight: bold;
@@ -127,9 +129,8 @@ input{
 #copy{
   background-image: url(copy.png);
   background-size: 90%;
-
   align-items: center;
-  background-color: yellowgreen;
+  background-color: #A1E3AB;
   background-repeat: no-repeat;
 }
 
@@ -138,6 +139,11 @@ input{
   outline: none;
 }
 
-.rangeLength{
-  color:yellowgreen;
+input[type = "range"]{
+  accent-color:#A1E3AB;
+  width:300px;
+}
+
+input[type = "checkbox"]{
+  accent-color:#A1E3AB;
 }

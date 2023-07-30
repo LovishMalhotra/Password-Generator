@@ -32,11 +32,11 @@ function generateRandomPassword(length, uppercase, lowercase, numbers, symbols) 
 
 function updateStrength() {
   const length = document.getElementById('length').value;
-  let strength = 'Weak';
-  if (length >= 8) strength = 'Medium';
-  if (length >= 12) strength = 'Strong';
-  if (length >= 16) strength = 'Very Strong';
-  document.getElementById('strength').innerText = 'Strength: ' + strength;
+  let strength = 'WEAK';
+  if (length >= 8) strength = 'MEDIUM';
+  if (length >= 12) strength = 'STRONG';
+  if (length >= 16) strength = 'VERY STRONG';
+  document.getElementById('strength').innerText = 'STRENGTH:'+ strength;
 }
 
 function copyPassword() {
